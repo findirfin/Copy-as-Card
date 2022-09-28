@@ -17,8 +17,11 @@ chrome.contextMenus.create({
         var tab = tabs[0];
         var empty = `
         `;
-        var full = itemData.selectionText + empty + tab.url;
-        copyToClipboard(full);
+        chrome.tabs.getSelected(null,function(tab) {
+          var title = tab.title;
+          var full = itemData.selectionText + empty + title + " - " + tab.url;
+          copyToClipboard(full);
+         });
     });
 
   });
