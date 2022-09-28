@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Copy With Citation",
+    "description": "Copies the selected text as plain text with a citation",
+    "version": "1.1.4",
+    "author": "Strange Potato Owls",
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+      },
+    "permissions": [
+        "contextMenus",
+        "tabs",
+        "activeTab"
+    ],
+    "background": {
+        "persistent": false,
+        "scripts": [
+            "index.js"
+        ]
+    }
+}
