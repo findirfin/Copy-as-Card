@@ -1,9 +1,9 @@
 {
     "manifest_version": 2,
-    "name": "Copy With Citation",
-    "description": "Copies the selected text as plain text with a citation",
-    "version": "1.1.4",
-    "author": "Strange Potato Owls",
+    "name": "Copy As Card",
+    "description": "Cards",
+    "version": "2.0.1",
+    "author": "Findirfin Noldor",
     "icons": {
         "16": "icon16.png",
         "48": "icon48.png",
