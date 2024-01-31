@@ -1,5 +1,6 @@
 # Use
 A chromium extension that add an option to the right-click menu. Clicking this new option copies the selected text to the clipboard as plain text, appending the Tile and URL of the site the text is on to the end.
+You can then just paste the text wherever you want as your card. 
 
 
 
